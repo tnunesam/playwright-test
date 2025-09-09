@@ -2,6 +2,7 @@
 const { World, setWorldConstructor } = require('@cucumber/cucumber');
 const { LoginPage } = require('../../pages/loginPage');
 const { HomePage } = require('../../pages/homePage');
+const { CadastroPage } = require('../../pages/cadastroPage');
 
 class CustomWorld extends World {
   constructor(options) {

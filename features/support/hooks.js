@@ -3,6 +3,7 @@ const { Before, After } = require('@cucumber/cucumber');
 const { chromium } = require('@playwright/test');
 const { LoginPage } = require('../../pages/loginPage');
 const { HomePage } = require('../../pages/homePage');
+const { CadastroPage } = require('../../pages/cadastroPage');
 
 let browser;
 
