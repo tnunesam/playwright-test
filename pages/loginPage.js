@@ -41,6 +41,11 @@ class LoginPage {
   async getRequiredFieldMessage() {
     return this.requiredFieldWarning.first().textContent();
   }
+
+  async navigateToRegistration() {
+    await this.registerButton.click();
+  }
+
 }
 
 module.exports = { LoginPage };
